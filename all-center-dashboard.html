@@ -45,6 +45,9 @@
     --glow-1:      rgba(230, 56, 84, 0.08);
     --glow-2:      rgba(230, 56, 84, 0.05);
   }
+  [data-theme="dark"] thead th { color: #CCD4E5; }
+  [data-theme="dark"] .add-branch-btn { color: #98A2B5; }
+  [data-theme="dark"] .add-branch-btn:hover { color: var(--red); }
   * { box-sizing: border-box; }
   html, body { height: 100vh; height: 100dvh; overflow: hidden; }
   html, body {
@@ -87,7 +90,7 @@
     font-family: 'Playfair Display', serif; font-style: italic; letter-spacing: 0.05em;
   }
   .brand-text .subtitle .ar { font-family: 'Tajawal', sans-serif; font-style: normal; }
-  .clock { display: flex; align-items: baseline; gap: 10px; }
+  .clock { display: flex; align-items: center; gap: 10px; }
   .clock-time { font-family: 'JetBrains Mono', monospace; font-size: 38px; font-weight: 700; color: var(--red); line-height: 1; }
   .clock-ampm { font-size: 20px; font-weight: 800; color: var(--red); }
 
